@@ -67,7 +67,8 @@ h6 {
   content: attr(data-caption);
   display: block;
   height: 44px;
-  background-color: rgb(32, 72, 182);
+  /* background-color: rgb(32, 72, 182); */
+  background-color: rgb(183, 149, 80);
   -ms-transform: rotate(8deg); /* IE 9 */
   transform: rotate(8deg);
   border-radius: 20px;
@@ -199,7 +200,8 @@ h6 {
   content: attr(data-caption);
   display: block;
   height: 44px;
-  background-color: rgb(32, 72, 182);
+  /* background-color: rgb(32, 72, 182); */
+  background-color: rgb(183, 149, 80);
   -ms-transform: rotate(8deg); /* IE 9 */
   transform: rotate(8deg);
   border-radius: 20px;
@@ -207,6 +209,9 @@ h6 {
   top: 44px;
   margin-right: 1rem;
 }
+/* #hero .play-store-btn-wrapper::before {
+  background-color: rgb(183, 149, 80);
+} */
 #hero .app-store-btn,
 #hero .play-store-btn,
 .app-store-btn,
@@ -1019,7 +1024,7 @@ a.active:after {
     padding: 0 25px;
   }
 
-/*--------------------------------------------------------------
+  /*--------------------------------------------------------------
 # FAQ
 --------------------------------------------------------------*/
 
