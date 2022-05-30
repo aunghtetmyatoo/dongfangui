@@ -68,7 +68,15 @@ h6 {
   display: block;
   height: 44px;
   /* background-color: rgb(32, 72, 182); */
-  background-color: rgb(183, 149, 80);
+  /* background-color: rgb(183, 149, 80); */
+  background: linear-gradient(
+    83deg,
+    rgba(183, 149, 80, 1) 0%,
+    rgba(219, 181, 77, 1) 25%,
+    rgba(162, 138, 94, 1) 50%,
+    rgba(228, 188, 74, 1) 75%,
+    rgba(173, 147, 91, 1) 100%
+  );
   -ms-transform: rotate(8deg); /* IE 9 */
   transform: rotate(8deg);
   border-radius: 20px;
@@ -201,7 +209,16 @@ h6 {
   display: block;
   height: 44px;
   /* background-color: rgb(32, 72, 182); */
-  background-color: rgb(183, 149, 80);
+  /* background-color: rgb(183, 149, 80); */
+  background: linear-gradient(
+    83deg,
+    rgba(183, 149, 80, 1) 0%,
+    rgba(219, 181, 77, 1) 25%,
+    rgba(162, 138, 94, 1) 50%,
+    rgba(228, 188, 74, 1) 75%,
+    rgba(173, 147, 91, 1) 100%
+  );
+
   -ms-transform: rotate(8deg); /* IE 9 */
   transform: rotate(8deg);
   border-radius: 20px;
