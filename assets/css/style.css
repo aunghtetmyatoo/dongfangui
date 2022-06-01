@@ -1072,6 +1072,9 @@ a.active:after {
     width: 100vw;
     height: 100vh;
     transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .navbar.active .nav-link {
     color: #fff;
