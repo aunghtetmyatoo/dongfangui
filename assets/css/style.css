@@ -835,6 +835,98 @@ a.active:after {
 }
 
 /*====================*/
+/* Tablet
+/*====================*/
+@media only screen and (max-width: 992px) {
+  /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+  #header .logo {
+    margin: 0;
+  }
+  #header .head-btn-wrapper {
+    display: none;
+  }
+
+  /*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+  #hero::before {
+    margin-bottom: 0.1rem;
+  }
+  #hero h1 {
+    max-width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  #hero h2 {
+    max-width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  #hero .btn-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #hero .hero-img {
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  #hero .hero-img img {
+    max-height: 24rem;
+  }
+
+  /*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+  #about {
+    padding: 4rem 0 2rem 0;
+  }
+  #about .about-text {
+    text-align: center;
+    padding: 2rem 2rem 0 2rem;
+  }
+  #about .about-text h2 {
+    font-size: 2.5rem;
+  }
+  #about .about-image {
+    text-align: center;
+  }
+  #about .about-image img {
+    width: 50%;
+  }
+
+  /*--------------------------------------------------------------
+# Details
+--------------------------------------------------------------*/
+
+  #details .content {
+    align-items: center;
+  }
+  #details .content .detail-info {
+    padding: 0 25px;
+  }
+
+  /*--------------------------------------------------------------
+# FAQ
+--------------------------------------------------------------*/
+
+  .faq .accordion a {
+    width: 92%;
+  }
+
+  /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+  #footer .container-lg {
+    padding: 0 2rem;
+  }
+}
+
+/*====================*/
 /* Mobile
 /*====================*/
 
@@ -1006,7 +1098,7 @@ a.active:after {
     padding-bottom: 2rem;
   }
   #about .about-text h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   #about .about-image {
     text-align: center;
@@ -1057,97 +1149,5 @@ a.active:after {
 
   #footer .footer-info .btn-wrapper {
     justify-content: start;
-  }
-}
-
-/*====================*/
-/* Tablet
-/*====================*/
-@media only screen and (max-width: 992px) {
-  /*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-
-  #header .logo {
-    margin: 0;
-  }
-  #header .head-btn-wrapper {
-    display: none;
-  }
-
-  /*--------------------------------------------------------------
-# Hero
---------------------------------------------------------------*/
-  #hero::before {
-    margin-bottom: 0.1rem;
-  }
-  #hero h1 {
-    max-width: 100%;
-    text-align: center;
-    font-size: 2.5rem;
-  }
-  #hero h2 {
-    max-width: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 0;
-  }
-  #hero .btn-wrapper {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  #hero .hero-img {
-    text-align: center;
-    margin-top: 2.5rem;
-  }
-  #hero .hero-img img {
-    max-height: 24rem;
-  }
-
-  /*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
-  #about {
-    padding: 4rem 0 2rem 0;
-  }
-  #about .about-text {
-    text-align: center;
-    padding: 2rem 2rem 0 2rem;
-  }
-  #about .about-text h2 {
-    font-size: 2.5rem;
-  }
-  #about .about-image {
-    text-align: center;
-  }
-  #about .about-image img {
-    width: 50%;
-  }
-
-  /*--------------------------------------------------------------
-# Details
---------------------------------------------------------------*/
-
-  #details .content {
-    align-items: center;
-  }
-  #details .content .detail-info {
-    padding: 0 25px;
-  }
-
-  /*--------------------------------------------------------------
-# FAQ
---------------------------------------------------------------*/
-
-  .faq .accordion a {
-    width: 92%;
-  }
-
-  /*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-
-  #footer .container-lg {
-    padding: 0 2rem;
   }
 }
