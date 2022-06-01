@@ -374,6 +374,7 @@ h6 {
 
 .about {
   padding-top: 120px;
+  flex-wrap: wrap;
 }
 
 .about .about-text {
@@ -392,6 +393,9 @@ h6 {
 .about .about-text p {
   line-height: 2rem;
   margin-top: 2rem;
+}
+.about .about-image img {
+  width: 100%;
 }
 /*--------------------------------------------------------------
 # Features
@@ -995,7 +999,20 @@ a.active:after {
 # About
 --------------------------------------------------------------*/
   #about {
-    padding: 6rem 0 2rem 0;
+    padding: 4rem 0 2rem 0;
+  }
+  #about .about-text {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  #about .about-text h2 {
+    font-size: 2rem;
+  }
+  #about .about-image {
+    text-align: center;
+  }
+  #about .about-image img {
+    width: 50%;
   }
 
   /*--------------------------------------------------------------
@@ -1085,6 +1102,26 @@ a.active:after {
   }
   #hero .hero-img img {
     max-height: 24rem;
+  }
+
+  /*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+  #about {
+    padding: 4rem 0 2rem 0;
+  }
+  #about .about-text {
+    text-align: center;
+    padding: 2rem 2rem 0 2rem;
+  }
+  #about .about-text h2 {
+    font-size: 2.5rem;
+  }
+  #about .about-image {
+    text-align: center;
+  }
+  #about .about-image img {
+    width: 50%;
   }
 
   /*--------------------------------------------------------------
