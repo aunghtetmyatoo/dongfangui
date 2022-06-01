@@ -32,13 +32,19 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 5rem;
+  height: 6rem;
   z-index: 997;
   width: 100%;
+  transition: all 0.5s;
 }
 #header.header-transparent {
+  /* background: rgb(255, 255, 255); */
+  background: transparent;
+}
+#header.header-scrolled {
   box-shadow: 0px 2px 7px -4px #888888;
   background: rgb(255, 255, 255);
+  height: 4.4rem;
 }
 #header .logo a,
 #footer .logo a {
@@ -833,7 +839,7 @@ a.active:after {
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   border-radius: 60px;
-  z-index: 1000;
+  z-index: 995;
 }
 #scroll span {
   position: absolute;
@@ -875,10 +881,10 @@ a.active:after {
   }
   .nav-tgl {
     display: inline-block;
-    position: fixed;
+    /* position: fixed; */
     z-index: 100;
-    right: 15px;
-    top: 10px;
+    /* right: 15px; */
+    /* top: 10px; */
     width: 55px;
     height: 55px;
     border: none;
@@ -934,10 +940,19 @@ a.active:after {
     content: "";
     width: 100vw;
     height: 100vh;
-    background: #000;
+    /* background: #000; */
+    /* background: linear-gradient(200deg, #000 0%, #a68243 100%); */
+    background: linear-gradient(
+      30deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 20%,
+      rgba(13, 194, 252, 1) 50%,
+      rgba(35, 54, 172, 1) 100%
+    );
     transition: all 400ms ease-in-out;
     clip-path: circle(30px at calc(100% - 55px) 55px);
     visibility: hidden;
+    z-index: 998;
   }
 
   .menu.active .navbar:before {
@@ -968,6 +983,9 @@ a.active:after {
     display: flex;
     flex-direction: column;
     opacity: 1;
+    position: relative;
+    z-index: 999;
+    transition: all 0.5s;
   }
   .navbar a:hover:before,
   .navbar li:hover > a:before,
